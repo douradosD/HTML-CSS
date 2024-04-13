@@ -26,7 +26,7 @@ body{
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: grey;
+    background-color: rgb(28, 28, 97);
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -41,7 +41,7 @@ h2.titulo{
 }
 
 h2.titulo span{
-  color: grey;
+  color: rgb(28, 28, 97);
 }
 
 button:hover, form .btn-enviar input:hover{
@@ -62,7 +62,7 @@ header > .interface{
 }
 
 header a{
-  color: #7d7d7d;
+  color: rgb(28, 28, 97);
   text-decoration: none;
   display: inline-block;
   transition: .2s;
@@ -81,6 +81,14 @@ header nav ul{
 header nav ul li{
   display: inline-block;
   padding: 40px;
+}
+
+/* ESTILO DO MEUNU MOBILE */
+
+.menu-mobile{
+  background-color: red;
+  height: 100vh;
+  position: fixed;
 }
 
 
@@ -102,7 +110,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-site h1 span{
-  color: grey;
+  color: rgb(28, 28, 97);
 }
 
 .topo-do-site .txt-topo-site p{
@@ -145,12 +153,12 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box:hover{
    transform: scale(1.05);
-   box-shadow: 0 0 20px #ffffff79;
+   box-shadow: 0 0 20px #7d7d7d;
 }
 
 .especialidades .especialidades-box i{
   font-size: 70px;
-  color: #7d7d7d;
+  color: rgb(28, 28, 97);
 }
 
 .especialidades .especialidades-box h3{
@@ -191,7 +199,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-  color: #7d7d7d;
+  color: rgb(28, 28, 97);
   display: block;
 }
 
@@ -205,7 +213,7 @@ section.sobre .flex{
   height: 60px;
   border-radius: 50%;
   border: none;
-  background-color: #7d7d7d;
+  background-color: rgb(28, 28, 97);
   font-size: 22px;
   cursor: pointer;
   margin: 10px 5px;
@@ -300,8 +308,8 @@ form .btn-enviar{
 
 form .btn-enviar input{
     width: 120px;
-    background-color: #fff;
-    color: #1a1818;
+    background-color: rgb(28, 28, 97);
+    color: black;
     font-weight: 700;
     cursor: pointer;
     transition: .2s;
@@ -319,12 +327,13 @@ footer .flex{
 }
 
 footer .line-footer .borda{
-  padding: 20px 0;
+  padding: 5px 0;
   
 }
 
 .borda{
-     border-top: 5px solid #fff;
+  border-top: 5px solid rgb(28, 28, 97);
+  padding: 7px 0;
 }
 
 footer .line-footer p i{
