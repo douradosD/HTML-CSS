@@ -7,7 +7,7 @@ btnMenu.addEventListener('click', ()=>{
     menu.classList.add('abrir-menu')
 })
 
-Menu.addEventListener('click', ()=>{
+menu.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
 
