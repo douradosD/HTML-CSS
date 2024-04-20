@@ -152,12 +152,14 @@ section.topo-do-site{
   padding: 40px 4%;
 }
 
-section.topo-do-site .flex{
+section.topo-do-site .flex{;
   align-items: center;
   justify-content: center;
 }
 
 .topo-do-site h1{
+  padding: 35px
+  ;
   color: #fff;
   font-size: 42px;
   line-height: 40px;
@@ -168,7 +170,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-site p{
-  
+  padding: 20px;
   color: #fff;
   margin: 40px 0;
 }
