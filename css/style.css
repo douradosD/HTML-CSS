@@ -8,8 +8,8 @@
 }
 
 body{
-    background-color: black;
-    height: 100vh;
+  background-color: #000;
+  height: 100vh;
     
 }
 
@@ -152,7 +152,7 @@ section.topo-do-site{
   padding: 40px 4%;
 }
 
-section.topo-do-site .flex{;
+section.topo-do-site .flex{
   align-items: center;
   justify-content: center;
 }
