@@ -158,8 +158,7 @@ section.topo-do-site .flex{;
 }
 
 .topo-do-site h1{
-  padding: 35px
-  ;
+  padding: 36px;
   color: #fff;
   font-size: 42px;
   line-height: 40px;
@@ -170,9 +169,13 @@ section.topo-do-site .flex{;
 }
 
 .topo-do-site .txt-topo-site p{
-  padding: 20px;
+  padding: 40px;
   color: #fff;
   margin: 40px 0;
+}
+
+.topo-do-site .btn-contato button{
+  margin: 35px;
 }
 
 .topo-do-site .img-topo-site img{
