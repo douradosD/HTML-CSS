@@ -1,0 +1,178 @@
+/* Reset some styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set some basic styles */
+  body{
+    background-color: white;
+    padding: 20px;
+  }
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  
+  h1, h2, h3 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1rem;
+  }
+  
+  li {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the header section */
+ header {
+    position: relative;
+    height: 100vh;
+    background-image: url("image/frut.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+  }
+
+  .interface{
+    height: 600px;
+    width: 60px;
+    color: black;
+  }
+
+.caracteristica h2{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: cadetblue;
+}
+
+  header img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+  
+  header button {
+    background-color: cadetblue;
+    color: #333;
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  header button:hover {
+    background-color: rgba(95, 158, 160, 0.563);
+  }
+  
+  header nav {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  header nav ul {
+    display: flex;
+  }
+  
+  header nav li {
+    margin: 0 1rem;
+  }
+  
+  header nav a {
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  /* Style the about section */
+  #about {
+    padding: 4rem 2rem;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  #about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #about p {
+    max-width: 500px;
+    margin: 0 auto 2rem auto;
+  }
+  
+  #about ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  #about li {
+    margin: 0 1rem;
+  }
+  
+  /* Style the services section */
+  #services {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  #services ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -1rem;
+  }
+  
+  #services li {
+    width: 33.33%;
+    margin-left: 1rem;
